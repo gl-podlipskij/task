@@ -1,0 +1,8 @@
+.logo {
+    display: flex;
+    gap : 10px;
+    .title {
+        font-size: 1.6em;
+        font-weight: bold;
+    }
+}

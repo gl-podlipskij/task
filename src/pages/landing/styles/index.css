@@ -1,0 +1,40 @@
+@import "./lib/fonts.css";
+@import "./lib/colors.css";
+@import "./lib/input.css";
+@import "./logo.css";
+@import "./lib/card.css";
+
+
+*, ::after, ::before {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 0;
+    color : var(--primaryText);
+    font-family: 'Poppins', sans-serif;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--background);
+    align-items: center;
+    .content {
+        width: 1280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 100vh;
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap : 128px;
+    margin: 128px 0;
+}
